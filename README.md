@@ -1,4 +1,4 @@
-To add in the project 
+# To add in the project 
 
  - Categrize the platform acc to the fields, branches and then years
  - auto delete notes after 30 days based on ranking 20 notes will be pinned and others will be deleted in span of 30 days
