@@ -1,0 +1,529 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Advanced Calculus Notes",
+      "subject": "Mathematics",
+      "author": "Sarah Johnson",
+      "content": "Comprehensive notes covering derivatives, integrals, and applications in real-world scenarios. Perfect for engineering and physics students.",
+      "likes": 245,
+      "dislikes": 12,
+      "comments": 34,
+      "date": "2025-09-05",
+      "images": [
+        "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=400",
+        "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400",
+        "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=400"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Organic Chemistry Reactions",
+      "subject": "Chemistry",
+      "author": "Mike Chen",
+      "content": "Complete guide to organic chemistry reactions with mechanisms, synthesis pathways, and laboratory techniques.",
+      "likes": 189,
+      "dislikes": 8,
+      "comments": 28,
+      "date": "2025-09-04",
+      "images": [
+        "https://images.unsplash.com/photo-1532634922-8fe0b757fb13?w=400",
+        "https://images.unsplash.com/photo-1554475901-4538ddfbccc2?w=400",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400",
+        "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=400"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Data Structures & Algorithms",
+      "subject": "Computer Science",
+      "author": "Alex Rivera",
+      "content": "Essential DSA concepts with code examples, complexity analysis, and interview preparation materials.",
+      "likes": 312,
+      "dislikes": 15,
+      "comments": 45,
+      "date": "2025-09-03",
+      "images": [
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400",
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400",
+        "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "World History Timeline",
+      "subject": "History",
+      "author": "Emma Davis",
+      "content": "Chronological overview of major world events, civilizations, and their impact on modern society.",
+      "likes": 156,
+      "dislikes": 7,
+      "comments": 22,
+      "date": "2025-09-02",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400",
+        "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=400",
+        "https://images.unsplash.com/photo-1543269664-647660ac2bcd?w=400"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Physics Quantum Mechanics",
+      "subject": "Physics",
+      "author": "Dr. Robert Kim",
+      "content": "Introduction to quantum mechanics, wave functions, and quantum applications in modern technology.",
+      "likes": 278,
+      "dislikes": 19,
+      "comments": 67,
+      "date": "2025-09-01",
+      "images": [
+        "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=400",
+        "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=400",
+        "https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=400"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "English Literature Analysis",
+      "subject": "Literature",
+      "author": "Prof. Jane Wilson",
+      "content": "Deep analysis of Shakespeare's works, poetry interpretation, and essay writing techniques.",
+      "likes": 143,
+      "dislikes": 6,
+      "comments": 31,
+      "date": "2025-08-31",
+      "images": [
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Microeconomics Principles",
+      "subject": "Economics",
+      "author": "Tom Anderson",
+      "content": "Supply and demand, market structures, consumer behavior, and economic decision-making processes.",
+      "likes": 201,
+      "dislikes": 11,
+      "comments": 38,
+      "date": "2025-08-30",
+      "images": [
+        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400",
+        "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400",
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Human Anatomy & Physiology",
+      "subject": "Biology",
+      "author": "Dr. Lisa Brown",
+      "content": "Detailed study of human body systems, organs, and their functions with medical illustrations.",
+      "likes": 324,
+      "dislikes": 13,
+      "comments": 78,
+      "date": "2025-08-29",
+      "images": [
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Constitutional Law Basics",
+      "subject": "Law",
+      "author": "Attorney Mark Stevens",
+      "content": "Fundamental principles of constitutional law, civil rights, and legal precedents in modern jurisprudence.",
+      "likes": 167,
+      "dislikes": 9,
+      "comments": 42,
+      "date": "2025-08-28",
+      "images": [
+        "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400",
+        "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=400",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Environmental Science Issues",
+      "subject": "Environmental Science",
+      "author": "Dr. Green Smith",
+      "content": "Climate change, biodiversity, pollution control, and sustainable development strategies for the future.",
+      "likes": 289,
+      "dislikes": 16,
+      "comments": 56,
+      "date": "2025-08-27",
+      "images": [
+        "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=400",
+        "https://images.unsplash.com/photo-1569163139394-de44cb5894ec?w=400",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400",
+        "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Machine Learning Algorithms",
+      "subject": "Computer Science",
+      "author": "Dr. AI Expert",
+      "content": "Supervised and unsupervised learning, neural networks, and practical ML implementation guides.",
+      "likes": 398,
+      "dislikes": 22,
+      "comments": 89,
+      "date": "2025-08-26",
+      "images": [
+        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400",
+        "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=400",
+        "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "French Language Basics",
+      "subject": "Languages",
+      "author": "Marie Dubois",
+      "content": "Essential French vocabulary, grammar rules, pronunciation guides, and cultural context.",
+      "likes": 134,
+      "dislikes": 5,
+      "comments": 27,
+      "date": "2025-08-25",
+      "images": [
+        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400",
+        "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?w=400",
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Statistics and Probability",
+      "subject": "Mathematics",
+      "author": "Prof. Numbers",
+      "content": "Descriptive statistics, probability distributions, hypothesis testing, and statistical inference methods.",
+      "likes": 221,
+      "dislikes": 14,
+      "comments": 43,
+      "date": "2025-08-24",
+      "images": [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400",
+        "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=400"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Renaissance Art History",
+      "subject": "Art History",
+      "author": "Dr. Artisan",
+      "content": "Italian Renaissance masters, artistic techniques, cultural context, and influence on modern art.",
+      "likes": 178,
+      "dislikes": 7,
+      "comments": 35,
+      "date": "2025-08-23",
+      "images": [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
+        "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400",
+        "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400",
+        "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Business Management Strategies",
+      "subject": "Business",
+      "author": "CEO Johnson",
+      "content": "Leadership principles, strategic planning, team management, and organizational behavior insights.",
+      "likes": 256,
+      "dislikes": 18,
+      "comments": 52,
+      "date": "2025-08-22",
+      "images": [
+        "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+        "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=400",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Genetics and DNA",
+      "subject": "Biology",
+      "author": "Dr. Gene Pool",
+      "content": "Molecular genetics, inheritance patterns, genetic engineering, and biotechnology applications.",
+      "likes": 267,
+      "dislikes": 12,
+      "comments": 48,
+      "date": "2025-08-21",
+      "images": [
+        "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Modern Philosophy",
+      "subject": "Philosophy",
+      "author": "Prof. Thinker",
+      "content": "Contemporary philosophical movements, ethics, existentialism, and critical thinking methodologies.",
+      "likes": 145,
+      "dislikes": 8,
+      "comments": 33,
+      "date": "2025-08-20",
+      "images": [
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Thermodynamics Principles",
+      "subject": "Physics",
+      "author": "Dr. Heat Wave",
+      "content": "Laws of thermodynamics, heat engines, entropy, and energy conservation in physical systems.",
+      "likes": 193,
+      "dislikes": 10,
+      "comments": 37,
+      "date": "2025-08-19",
+      "images": [
+        "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=400",
+        "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=400",
+        "https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=400"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Digital Marketing Guide",
+      "subject": "Marketing",
+      "author": "Social Media Guru",
+      "content": "SEO strategies, social media marketing, content creation, and digital advertising techniques.",
+      "likes": 312,
+      "dislikes": 21,
+      "comments": 64,
+      "date": "2025-08-18",
+      "images": [
+        "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=400",
+        "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+        "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=400",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Psychology of Learning",
+      "subject": "Psychology",
+      "author": "Dr. Mind Reader",
+      "content": "Cognitive psychology, memory processes, learning theories, and behavioral psychology applications.",
+      "likes": 234,
+      "dislikes": 13,
+      "comments": 46,
+      "date": "2025-08-17",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400",
+        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Linear Algebra Matrices",
+      "subject": "Mathematics",
+      "author": "Matrix Master",
+      "content": "Vector spaces, matrix operations, eigenvalues, eigenvectors, and applications in engineering.",
+      "likes": 187,
+      "dislikes": 9,
+      "comments": 29,
+      "date": "2025-08-16",
+      "images": [
+        "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=400",
+        "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400",
+        "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=400",
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "World Geography",
+      "subject": "Geography",
+      "author": "Globe Trotter",
+      "content": "Physical geography, climate patterns, population distribution, and geopolitical analysis.",
+      "likes": 165,
+      "dislikes": 6,
+      "comments": 32,
+      "date": "2025-08-15",
+      "images": [
+        "https://images.unsplash.com/photo-1569163139394-de44cb5894ec?w=400",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400",
+        "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Database Design",
+      "subject": "Computer Science",
+      "author": "DB Admin",
+      "content": "SQL fundamentals, database normalization, query optimization, and database management systems.",
+      "likes": 276,
+      "dislikes": 15,
+      "comments": 58,
+      "date": "2025-08-14",
+      "images": [
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400",
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400",
+        "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Nutrition Science",
+      "subject": "Health Sciences",
+      "author": "Dr. Healthy",
+      "content": "Macronutrients, micronutrients, metabolism, dietary planning, and nutritional biochemistry.",
+      "likes": 198,
+      "dislikes": 11,
+      "comments": 41,
+      "date": "2025-08-13",
+      "images": [
+        "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Ancient Civilizations",
+      "subject": "History",
+      "author": "Time Traveler",
+      "content": "Egyptian, Greek, Roman, and Mesopotamian civilizations, their culture, and historical impact.",
+      "likes": 142,
+      "dislikes": 5,
+      "comments": 26,
+      "date": "2025-08-12",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400",
+        "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=400"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Financial Accounting",
+      "subject": "Accounting",
+      "author": "Number Cruncher",
+      "content": "Balance sheets, income statements, cash flow analysis, and financial reporting standards.",
+      "likes": 213,
+      "dislikes": 17,
+      "comments": 39,
+      "date": "2025-08-11",
+      "images": [
+        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400",
+        "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400",
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Creative Writing Workshop",
+      "subject": "Literature",
+      "author": "Story Teller",
+      "content": "Narrative techniques, character development, plot structure, and creative writing exercises.",
+      "likes": 156,
+      "dislikes": 7,
+      "comments": 34,
+      "date": "2025-08-10",
+      "images": [
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400",
+        "https://images.unsplash.com/photo-1543269664-647660ac2bcd?w=400"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Astrophysics Wonders",
+      "subject": "Physics",
+      "author": "Star Gazer",
+      "content": "Black holes, stellar evolution, cosmology, and the physics of the universe explained simply.",
+      "likes": 329,
+      "dislikes": 19,
+      "comments": 71,
+      "date": "2025-08-09",
+      "images": [
+        "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=400",
+        "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=400",
+        "https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=400"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Web Development Fundamentals",
+      "subject": "Computer Science",
+      "author": "Code Ninja",
+      "content": "HTML, CSS, JavaScript basics, responsive design, and modern web development frameworks.",
+      "likes": 387,
+      "dislikes": 23,
+      "comments": 92,
+      "date": "2025-08-08",
+      "images": [
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400",
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400",
+        "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400",
+        "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Social Psychology Studies",
+      "subject": "Psychology",
+      "author": "Group Mind",
+      "content": "Social influence, group dynamics, prejudice, attitudes, and interpersonal relationships.",
+      "likes": 224,
+      "dislikes": 12,
+      "comments": 47,
+      "date": "2025-08-07",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400",
+        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "International Relations",
+      "subject": "Political Science",
+      "author": "Diplomat",
+      "content": "Global politics, international law, diplomacy, and foreign policy analysis in modern world.",
+      "likes": 189,
+      "dislikes": 14,
+      "comments": 36,
+      "date": "2025-08-06",
+      "images": [
+        "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400",
+        "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=400",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+        "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=400"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Game Theory Applications",
+      "subject": "Mathematics",
+      "author": "Strategic Thinker",
+      "content": "Nash equilibrium, prisoner's dilemma, auction theory, and applications in economics and biology.",
+      "likes": 167,
+      "dislikes": 8,
+      "comments": 31,
+      "date": "2025-08-05",
+      "images": [
+        "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=400",
+        "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400",
+        "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=400"
+      ]
+    }
+  ]
+}
