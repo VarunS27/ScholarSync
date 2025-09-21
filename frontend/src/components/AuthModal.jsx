@@ -8,29 +8,56 @@ const AuthModal = ({ onClose, onLogin }) => {
     name: ''
   });
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  const API_BASE_URL = 'http://localhost:5000/api';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    const userData = {
-      id: 1,
-      name: formData.name || formData.email.split('@')[0],
-      email: formData.email
-    };
-    
-    setIsLoading(false);
-    onLogin(userData);
+    setError('');
+
+    try {
+      const endpoint = isLogin ? '/auth/login' : '/auth/register';
+      const payload = isLogin 
+        ? { email: formData.email, password: formData.password }
+        : formData;
+
+      const response = await fetch(`${API_BASE_URL}${endpoint}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        // Store token in localStorage
+        localStorage.setItem('token', data.data.token);
+        localStorage.setItem('user', JSON.stringify(data.data.user));
+        
+        // Call onLogin callback with user data
+        onLogin(data.data.user);
+        onClose();
+      } else {
+        setError(data.message || 'An error occurred');
+      }
+    } catch (err) {
+      setError('Network error. Please try again.');
+      console.error('Auth error:', err);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleInputChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
   };
 
   return (
@@ -63,6 +90,8 @@ const AuthModal = ({ onClose, onLogin }) => {
 
           {/* Form */}
           <form onSubmit={handleSubmit} className="space-y-6">
+            {error && <div className="text-red-500 text-sm mb-4">{error}</div>}
+            
             {!isLogin && (
               <div className="group">
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -77,6 +106,7 @@ const AuthModal = ({ onClose, onLogin }) => {
                     className="w-full px-4 py-3.5 bg-white/80 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-blue-500 focus:bg-white transition-all duration-300 text-gray-800 placeholder-gray-400"
                     placeholder="Enter your full name"
                     required={!isLogin}
+                    disabled={isLoading}
                   />
                   <div className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 transform scale-x-0 group-focus-within:scale-x-100 transition-transform duration-300"></div>
                 </div>
@@ -96,6 +126,7 @@ const AuthModal = ({ onClose, onLogin }) => {
                   className="w-full px-4 py-3.5 bg-white/80 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-blue-500 focus:bg-white transition-all duration-300 text-gray-800 placeholder-gray-400"
                   placeholder="Enter your email"
                   required
+                  disabled={isLoading}
                 />
                 <div className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 transform scale-x-0 group-focus-within:scale-x-100 transition-transform duration-300"></div>
               </div>
@@ -114,6 +145,8 @@ const AuthModal = ({ onClose, onLogin }) => {
                   className="w-full px-4 py-3.5 bg-white/80 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-blue-500 focus:bg-white transition-all duration-300 text-gray-800 placeholder-gray-400"
                   placeholder="Enter your password"
                   required
+                  minLength={6}
+                  disabled={isLoading}
                 />
                 <div className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 transform scale-x-0 group-focus-within:scale-x-100 transition-transform duration-300"></div>
               </div>
